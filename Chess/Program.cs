@@ -10,6 +10,8 @@ namespace Chess
 	{
 		static void Main(string[] args)
 		{
+			ChessBoard game = new ChessBoard();
+			game.displayChessBoard();
 		}
 
 		
