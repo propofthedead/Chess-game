@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-	class Pawn
+	public class Pawn
 	{
+		public const char PAWN_SYMBBOL = 'P';
+		public const char SPACE = ' ';
+		public static char[,] pawns;
+
+		public Pawn()
+		{
+			pawns = new char[ChessBoard.DIMENSION, ChessBoard.DIMENSION];
+		}
 	}
 }
