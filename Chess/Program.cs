@@ -12,17 +12,7 @@ namespace Chess
 		{
 		}
 
-		struct Corrdinate
-		{
-			char x;
-			int y;
-		};
+		
 
-		struct Piece
-		{
-			Corrdinate location;
-			string pieceName;
-			string pieceType;
-		};
 	}
 }
