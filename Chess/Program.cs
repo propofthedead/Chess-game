@@ -12,6 +12,8 @@ namespace Chess
 		{
 			ChessBoard game = new ChessBoard();
 			game.displayChessBoard();
+
+			Console.Read();
 		}
 
 		
