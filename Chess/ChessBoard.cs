@@ -40,11 +40,18 @@ namespace Chess
 
 					Console.Write("+\n");
 					for( int c=0; c < DIMENSION; c++) {
+					if (c == 0) {
 						Console.Write(r + " "); //y axis header
+					}
 						Console.Write(ChessBoardVerticalSymbol + Pawn.pawns[r, c] + " "); // displays pawns
 					}
 					Console.Write("|\n");
 				}
+			Console.Write("  ");
+			for(int c=0; c < DIMENSION; c++) {
+				Console.Write(ChessBoardHorizontalSymbol);
+			}
+			Console.Write("+\n\n");
 
 			//}
 		}
