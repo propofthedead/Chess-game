@@ -29,8 +29,8 @@ namespace Chess
 		public void MakeMove()
 		{
 			getInput();
-
-			rearrangePawns();
+			if(!Exit)
+				rearrangePawns();
 		}
 
 		private void getInput()
