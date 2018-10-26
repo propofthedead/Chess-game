@@ -28,7 +28,7 @@ namespace Chess
 
 		public void displayChessBoard()
 		{
-			//while (!move.Exit) {
+			while (!move.Exit) {
 				Console.Clear();
 				Console.WriteLine("    0   1   2   3   4   5   6   7"); // x axis header
 
@@ -53,7 +53,8 @@ namespace Chess
 			}
 			Console.Write("+\n\n");
 
-			//}
+				move.MakeMove();
+			}
 		}
 	}
 }
